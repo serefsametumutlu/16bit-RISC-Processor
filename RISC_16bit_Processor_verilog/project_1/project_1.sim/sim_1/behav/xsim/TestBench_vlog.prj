@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../../rtl/ALU.v" \
+"../../../../../rtl/ControlHazardUnit.v" \
+"../../../../../rtl/ControlUnit.v" \
+"../../../../../rtl/DataMemory.v" \
+"../../../../../rtl/ForwardingUnit.v" \
+"../../../../../rtl/HazardUnit.v" \
+"../../../../../rtl/InstructionMemory.v" \
+"../../../../../rtl/PipelineProcessor.v" \
+"../../../../../rtl/RegisterFile.v" \
+"../../../../../sim/TestBench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

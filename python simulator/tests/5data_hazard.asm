@@ -1,0 +1,11 @@
+ADDI R1, R0, 10
+ADD R2, R1, R1
+ADD R3, R2, R1
+
+ADDI R4, R0, 0
+SW R1, 0(R4)
+LW R5, 0(R4)
+ADD R6, R5, R5
+
+NOP
+

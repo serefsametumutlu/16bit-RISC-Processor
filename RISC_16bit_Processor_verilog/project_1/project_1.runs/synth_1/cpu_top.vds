@@ -1,0 +1,295 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Dec 14 20:54:39 2025
+# Process ID         : 3324
+# Current directory  : C:/Users/Samet/Desktop/RISC_16bit_Processor/project_1/project_1.runs/synth_1
+# Command line       : vivado.exe -log cpu_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu_top.tcl
+# Log file           : C:/Users/Samet/Desktop/RISC_16bit_Processor/project_1/project_1.runs/synth_1/cpu_top.vds
+# Journal file       : C:/Users/Samet/Desktop/RISC_16bit_Processor/project_1/project_1.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-LSTJF8V
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 5800H with Radeon Graphics         
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16476 MB
+# Swap memory        : 3087 MB
+# Total Virtual      : 19563 MB
+# Available Virtual  : 8614 MB
+#-----------------------------------------------------------
+source cpu_top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Samet/Desktop/RISC_16bit_Processor/project_1/project_1.srcs/utils_1/imports/synth_1/PipelineProcessor.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Samet/Desktop/RISC_16bit_Processor/project_1/project_1.srcs/utils_1/imports/synth_1/PipelineProcessor.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top cpu_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15468
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1074.410 ; gain = 532.668
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'cpu_top' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/cpu_top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PipelineProcessor' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/PipelineProcessor.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ControlHazardUnit' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ControlHazardUnit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ControlHazardUnit' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ControlHazardUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/InstructionMemory.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/InstructionMemory.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ControlUnit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ControlUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/RegisterFile.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/RegisterFile.v:3]
+INFO: [Synth 8-6157] synthesizing module 'HazardUnit' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/HazardUnit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'HazardUnit' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/HazardUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ForwardingUnit' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ForwardingUnit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardingUnit' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ForwardingUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ALU.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ALU.v:3]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/DataMemory.v:3]
+INFO: [Synth 8-6085] Hierarchical reference on 'memory' stops possible memory inference [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/DataMemory.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/DataMemory.v:3]
+INFO: [Synth 8-6085] Hierarchical reference on 'registers' stops possible memory inference [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/RegisterFile.v:14]
+INFO: [Synth 8-6085] Hierarchical reference on 'memory' stops possible memory inference [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/DataMemory.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'PipelineProcessor' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/PipelineProcessor.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_top' (0#1) [C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/cpu_top.v:3]
+WARNING: [Synth 8-7129] Port addr[15] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module InstructionMemory is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1233.516 ; gain = 691.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1233.516 ; gain = 691.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1233.516 ; gain = 691.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/Samet/Desktop/RISC_16bit_Processor/project_1/project_1.srcs/utils_1/imports/synth_1/PipelineProcessor.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1233.516 ; gain = 691.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1233.516 ; gain = 691.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1233.516 ; gain = 691.773
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 4     
+	   3 Input   16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 276   
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 24    
+	   3 Input   16 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	  10 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 4     
+	  10 Input    1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7129] Port addr[15] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module DataMemory is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:32 . Memory (MB): peak = 1450.148 ; gain = 908.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------------+------------+---------------+----------------+
+|Module Name       | RTL Object | Depth x Width | Implemented As | 
++------------------+------------+---------------+----------------+
+|InstructionMemory | memory     | 256x1         | LUT            | 
+|cpu_top           | p_0_out    | 256x1         | LUT            | 
++------------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 1454.418 ; gain = 912.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 1454.418 ; gain = 912.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1666.203 ; gain = 1124.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1666.203 ; gain = 1124.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1666.203 ; gain = 1124.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 1666.203 ; gain = 1124.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 1666.203 ; gain = 1124.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 1666.203 ; gain = 1124.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |     1|
+|4     |FDCE   |   143|
+|5     |FDRE   |  4096|
+|6     |IBUF   |     2|
+|7     |OBUF   |    80|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+------------------+------+
+|      |Instance |Module            |Cells |
++------+---------+------------------+------+
+|1     |top      |                  |  4327|
+|2     |  uut    |PipelineProcessor |  4244|
+|3     |    rf   |RegisterFile      |   128|
+|4     |    dm   |DataMemory        |  4096|
++------+---------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 1666.203 ; gain = 1124.461
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 1666.203 ; gain = 1124.461
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 1666.203 ; gain = 1124.461
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1681.234 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'cpu_top' is not ideal for floorplanning, since the cellview 'DataMemory' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1794.766 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 812b8a8f
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 22 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1794.766 ; gain = 1258.871
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1794.766 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Samet/Desktop/RISC_16bit_Processor/project_1/project_1.runs/synth_1/cpu_top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file cpu_top_utilization_synth.rpt -pb cpu_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 14 20:55:29 2025...

@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/Samet/Desktop/RISC_16bit_Processor/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ALU.v,1768303660,verilog,,C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ControlHazardUnit.v,,ALU,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ControlHazardUnit.v,1766269189,verilog,,C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ControlUnit.v,,ControlHazardUnit,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ControlUnit.v,1768076311,verilog,,C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/DataMemory.v,,ControlUnit,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/DataMemory.v,1766269189,verilog,,C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ForwardingUnit.v,,DataMemory,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/ForwardingUnit.v,1766269189,verilog,,C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/HazardUnit.v,,ForwardingUnit,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/HazardUnit.v,1766269189,verilog,,C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/InstructionMemory.v,,HazardUnit,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/InstructionMemory.v,1766269189,verilog,,C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/PipelineProcessor.v,,InstructionMemory,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/PipelineProcessor.v,1766844179,verilog,,C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/RegisterFile.v,,PipelineProcessor,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/rtl/RegisterFile.v,1768303591,verilog,,C:/Users/Samet/Desktop/RISC_16bit_Processor/sim/TestBench.v,,RegisterFile,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Samet/Desktop/RISC_16bit_Processor/sim/TestBench.v,1768303820,verilog,,,,TestBench,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,

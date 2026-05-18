@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+IMEM: loading machine_code.txt ...
+IMEM: memory[0]=0101000001001010 memory[1]=0101000010010100 memory[2]=1101000000001100 memory[3]=1010011100000001
+FAIL: mem[4] (index2) expected 0x002A, got 000b
+Fatal: 
+Time: 820 ns  Iteration: 0  Process: /TestBench/Initial14_18  Scope: TestBench  File: C:/Users/Samet/Desktop/RISC_16bit_Processor/sim/TestBench.v Line: 24
+$finish called at time : 820 ns
